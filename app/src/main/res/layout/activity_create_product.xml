@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.CreateProduct">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/createnewproductbtn"
+            android:background="@drawable/buttonleft"
+            android:text="Create New Products"
+            android:textColor="@color/Black"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            />
+        <Button
+            android:id="@+id/inventoryforproductbtn"
+            android:background="@drawable/buttonleft"
+            android:text="Inventory For The Product"
+            android:textColor="@color/Black"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            />
+
+    </LinearLayout>
+</ScrollView>

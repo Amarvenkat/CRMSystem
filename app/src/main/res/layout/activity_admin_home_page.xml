@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".admin.AdminHomePage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/createsalespersonbtn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        app:cardElevation="2dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="Create sales person"
+
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/managestaffbtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="Manage Staff and Attendance"
+
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tracksalesbtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="Track Sales"
+
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/paybtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="Incentive and pay"
+
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/createproductbtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="Create product and inventory for the product"
+
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/leadgenerationbtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="Lead Generation Team"
+
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+</ScrollView>

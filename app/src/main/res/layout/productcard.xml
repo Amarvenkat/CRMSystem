@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/invcard"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="@color/White"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="100"
+            >
+
+            <ImageView
+                android:id="@+id/invimg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="40"
+                android:textSize="19sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginLeft="7dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:layout_gravity="center">
+
+
+                <TextView
+                android:id="@+id/invtitle"
+                android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:textSize="19sp"
+                android:text="Leadname"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/Black"
+                android:layout_marginLeft="7dp"
+                />
+
+            </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+
+           >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:textSize="10sp"
+                android:text="Price:"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/Black"
+                android:layout_marginLeft="7dp"
+                />
+            <TextView
+                android:id="@+id/invprice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:text="Lead contact"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+           >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:textSize="10sp"
+                android:text="Quantity:"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/Black"
+                android:layout_marginLeft="7dp"
+                />
+            <TextView
+                android:id="@+id/invquatity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Lead contact"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+           >
+
+            <TextView
+                android:id="@+id/invdec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Lead address"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                />
+
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

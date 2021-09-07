@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "891151531204",
+    "project_id": "crmsystem-a5777",
+    "storage_bucket": "crmsystem-a5777.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891151531204:android:6918d97a4f8c7d57049d91",
+        "android_client_info": {
+          "package_name": "com.example.crmsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891151531204-od0i2gf6mgh0oh0rnsth7ufsq56sunta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXEAmiKfQ2gFOTsnqOgfqigvCAylmhMkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891151531204-od0i2gf6mgh0oh0rnsth7ufsq56sunta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

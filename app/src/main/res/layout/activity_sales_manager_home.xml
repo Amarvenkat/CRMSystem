@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".salesmanager.SalesManagerHome">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/salesmanagerhomeliststaff"
+            android:background="@drawable/buttonleft"
+            android:text="List of staff"
+            android:textColor="@color/Black"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            />
+
+        <Button
+            android:id="@+id/salesmanagerhomeassignleads"
+            android:background="@drawable/buttonleft"
+            android:text="Assign or reassign leads"
+            android:textColor="@color/Black"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            />
+        <Button
+            android:id="@+id/salesmanagerhomediscounts"
+            android:background="@drawable/buttonleft"
+            android:text="Discounts managements"
+            android:textColor="@color/Black"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            />
+        <Button
+            android:id="@+id/salesmanagerhomecreationofinvoice"
+            android:background="@drawable/buttonleft"
+            android:text="Creation of estimate and invoice"
+            android:textColor="@color/Black"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".salesmanager.AssigningLeads">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:helperTextTextColor="@color/Red"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="16dp"
+            app:boxBackgroundMode="outline"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/assigningLeadname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employee ID"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:helperTextTextColor="@color/Red"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="16dp"
+            app:boxBackgroundMode="outline"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/assigningLeademployeeid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lead Name"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:helperTextTextColor="@color/Red"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="16dp"
+            app:boxBackgroundMode="outline"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/assigningLeadleadname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lead Address"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:helperTextTextColor="@color/Red"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="16dp"
+            app:boxBackgroundMode="outline"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/assigningLeadleadaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lead Contact"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:helperTextTextColor="@color/Red"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="16dp"
+            app:boxBackgroundMode="outline"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/assigningLeadleadcontact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Taget"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:helperTextTextColor="@color/Red"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="16dp"
+            app:boxBackgroundMode="outline"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/assigningLeadtarget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Start Date"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:helperTextTextColor="@color/Red"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="16dp"
+            app:boxBackgroundMode="outline"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/assigningLeadstartdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="End Date"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:helperTextTextColor="@color/Red"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="16dp"
+            app:boxBackgroundMode="outline"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/assigningLeadenddate"
+                android:inputType="date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Shift"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:helperTextTextColor="@color/Red"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="16dp"
+            app:boxBackgroundMode="outline"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/assigningLeadshift"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Place (Area)"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:helperTextTextColor="@color/Red"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="16dp"
+            app:boxBackgroundMode="outline"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/assigningLeadplace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <Button
+            android:id="@+id/assigningLeadsubmitbtn"
+            android:background="@drawable/buttonleft"
+            android:text="Submit"
+            android:textColor="@color/Black"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

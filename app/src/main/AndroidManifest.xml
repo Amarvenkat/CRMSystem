@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.crmsystem">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission. ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service
+            android:name=".admin.NewCampService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity android:name=".admin.NewCampaigns" />
+        <activity android:name=".admin.LeadsGeneratedCampaigns" />
+
+        <service
+            android:name=".admin.ProductUploadService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".salesstaff.AttendenceService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".salesstaff.TrackLeadService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".salesstaff.SalesStaffDashboard" />
+        <activity android:name=".salesstaff.SalesStaffTrackLead" />
+
+        <service
+            android:name=".AssignLeadService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Register" />
+        <activity android:name=".salesstaff.TrackLead" />
+        <activity android:name=".salesstaff.SalesStaffHome" />
+        <activity android:name=".salesstaff.SalesStaffLogin" />
+        <activity android:name=".salesmanager.ReassigningLeads" />
+        <activity android:name=".salesmanager.AssigningLeads" />
+        <activity android:name=".salesmanager.CreationofInvoice" />
+        <activity android:name=".salesmanager.DiscountsManagement" />
+        <activity android:name=".salesmanager.AssignLeads" />
+        <activity android:name=".salesmanager.ListStaff" />
+        <activity android:name=".salesmanager.SalesManagerHome" />
+        <activity android:name=".salesmanager.SalesManagerLogin" />
+        <activity android:name=".admin.InventoryForTheProduct" />
+        <activity android:name=".admin.CreateNewProduct" />
+        <activity android:name=".admin.LeadGeneration" />
+        <activity android:name=".admin.CreateProduct" />
+        <activity android:name=".admin.Pay" />
+        <activity android:name=".admin.TrackSales" />
+        <activity android:name=".admin.ManageStaff" />
+        <activity android:name=".admin.CreateSalsePerson" />
+        <activity android:name=".admin.AdminHomePage" />
+        <activity android:name=".admin.AdminLogin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

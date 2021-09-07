@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.Pay">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EMP ID"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            app:helperTextTextColor="@color/Red"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="16dp"
+            app:boxBackgroundMode="outline"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/payempid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Basic pay"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            app:helperTextTextColor="@color/Red"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="16dp"
+            app:boxBackgroundMode="outline"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/paybasicpay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Incentive %"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            app:helperTextTextColor="@color/Red"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="16dp"
+            app:boxBackgroundMode="outline"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/payincentive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/calcpaybtn"
+            android:background="@drawable/buttonleft"
+            android:text="Calculate pay"
+            android:textColor="@color/Black"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            />
+<TextView
+    android:layout_gravity="center"
+    android:id="@+id/totalpay"
+    android:textSize="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+
+
+    </LinearLayout>
+
+</ScrollView>

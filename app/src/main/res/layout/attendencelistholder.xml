@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="4"
+    >
+<TextView
+    android:id="@+id/attempid"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_marginLeft="10dp"
+    android:text="asdasd"
+    />
+    <TextView
+        android:id="@+id/attdate"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="asda"/>
+    <TextView
+        android:id="@+id/attlat"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="asda"/>
+    <TextView
+        android:id="@+id/attlon"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="asda"/>
+
+</LinearLayout>

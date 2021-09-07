@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.TrackSales">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="10"
+                android:layout_height="match_parent">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_weight="3"
+                    android:text="Profit"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_height="0dp"/>
+
+                <TextView
+                    android:id="@+id/tracksalesprofit"
+                    android:layout_width="match_parent"
+                    android:layout_weight="7"
+                    android:text="12"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:layout_height="0dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="10"
+                android:layout_height="match_parent">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_weight="3"
+                    android:text="Total Stocks"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_height="0dp"/>
+
+                <TextView
+                    android:id="@+id/tracksalestotalstocks"
+                    android:layout_width="match_parent"
+                    android:layout_weight="7"
+                    android:text="12"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:layout_height="0dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="10"
+                android:layout_height="match_parent">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_weight="3"
+                    android:text="Stock Left"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_height="0dp"/>
+
+                <TextView
+                    android:id="@+id/tracksalesstockleft"
+                    android:layout_width="match_parent"
+                    android:layout_weight="7"
+                    android:text="12"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:layout_height="0dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="10"
+                android:layout_height="match_parent">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_weight="3"
+                    android:text="Stocks Sold"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_height="0dp"/>
+
+                <TextView
+                    android:id="@+id/tracksalesstocksold"
+                    android:layout_width="match_parent"
+                    android:layout_weight="7"
+                    android:text="12"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:layout_height="0dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
